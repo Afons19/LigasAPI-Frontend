@@ -142,7 +142,7 @@ Os dados retornados pelos serializers são utilizados diretamente para otimizar 
 
 ## 🚀 Instalação e Execução
 
-1. Clone o repositório: [https://github.com/Afons19/LigasAPI-Frontend.git](https://github.com/Afons19/LigasAPI-Frontend.git)
+1. Clone o repositório: git clone [https://github.com/Afons19/LigasAPI-Frontend.git](https://github.com/Afons19/LigasAPI-Frontend.git)
 
 ```bash
 # Instalar dependências
