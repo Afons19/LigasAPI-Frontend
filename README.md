@@ -40,7 +40,7 @@ Permite:
 
 ## 3. 🗂️ Estrutura do Projeto
 
-```plaintext
+```
 frontend/
 └── src/
     ├── assets/
@@ -59,93 +59,78 @@ frontend/
         ├── LigaDetalhe.vue
         ├── EquipaDetalhe.vue
         └── JogadorDetalhe.vue
-````
+```
 
 ---
 
 ## 4. 🧩 Organização do Código
 
 ### `assets/`
-
 Estilos globais da aplicação.
 
 ### `services/api.js`
-
 Centraliza comunicação com a API:
-
-* URL base
-* Chamadas HTTP
-* Manutenção e escalabilidade
+- URL base
+- Chamadas HTTP
+- Manutenção e escalabilidade
 
 ### `router/router.js`
-
 Gerencia as rotas:
-
-* `/`
-* `/gerenciar`
-* `/ligas/:id`
-* `/equipas/:id`
-* `/jogadores/:id`
+- `/`
+- `/gerenciar`
+- `/ligas/:id`
+- `/equipas/:id`
+- `/jogadores/:id`
 
 ---
 
 ## 5. 🧱 Componentes Reutilizáveis
 
 ### Navbar
-
-* Navegação global
+- Navegação global
 
 ### StatCard
-
-* Estatísticas:
-
-  * Ligas
-  * Equipas
-  * Jogadores
-  * Jogos
+- Estatísticas:
+  - Ligas
+  - Equipas
+  - Jogadores
+  - Jogos
 
 ### LigaCard
-
-* Exibe informações de uma liga e seus jogos
+- Exibe informações de uma liga e seus jogos
 
 ---
 
 ## 6. 🖥️ Views (Páginas)
 
 ### Home.vue
-
-* Estatísticas globais
-* Ligas, jogos e equipas
-* Navegação para detalhes
+- Estatísticas globais
+- Ligas, jogos e equipas
+- Navegação para detalhes
 
 ### Gerenciar.vue
-
-* CRUD completo:
-
-  * Ligas
-  * Equipas
-  * Jogadores
-  * Jogos
+- CRUD completo:
+  - Ligas
+  - Equipas
+  - Jogadores
+  - Jogos
 
 ### LigaDetalhe.vue
-
-* Dados detalhados da liga
+- Dados detalhados da liga
 
 ### EquipaDetalhe.vue
-
-* Dados da equipa
-* Tabela de jogadores
+- Dados da equipa
+- Tabela de jogadores
 
 ### JogadorDetalhe.vue
-
-* Dados completos do jogador
+- Dados completos do jogador
 
 ---
 
 ## 7. 🔗 Integração com o Backend
 
 | Funcionalidade | Endpoint          |
-| -------------- | ----------------- |
+|----------------|-------------------|
 | Ligas          | `/api/ligas/`     |
 | Equipas        | `/api/equipas/`   |
 | Jogadores      | `/api/jogadores/` |
@@ -153,11 +138,13 @@ Gerencia as rotas:
 
 Os dados retornados pelos serializers são utilizados diretamente para otimizar o desempenho.
 
-```
-## 🚀 Instalação e Execução
-[Clone o repositório: ](https://github.com/Afons19/LigasAPI-Frontend.git)
+---
 
-``bash
+## 🚀 Instalação e Execução
+
+1. Clone o repositório: [https://github.com/Afons19/LigasAPI-Frontend.git](https://github.com/Afons19/LigasAPI-Frontend.git)
+
+```bash
 # Instalar dependências
 npm install
 npm install axios
@@ -171,7 +158,7 @@ A aplicação estará disponível em:
 
 ```
 http://localhost:5173
-``
+```
 
 ---
 
@@ -179,12 +166,14 @@ http://localhost:5173
 
 Este projeto foi desenvolvido para fins académicos no âmbito da unidade curricular de desenvolvimento web, cumprindo boas práticas de organização, modularidade e integração frontend-backend.
 
+---
 
 ## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir com melhorias abrindo um problema ou enviando um pull request.
+
 ---
- 
+
 ## 📄 Licença
 
 Este projeto é licenciado sob a Licença MIT.
