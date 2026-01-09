@@ -177,3 +177,184 @@ Sinta-se à vontade para contribuir com melhorias abrindo um problema ou enviand
 ## 📄 Licença
 
 Este projeto é licenciado sob a Licença MIT.
+---
+
+# LigaApi-Backend
+# ⚽ Sports League Management System — Frontend
+
+![Vue](https://img.shields.io/badge/Vue.js-3.x-42b883)
+![Vite](https://img.shields.io/badge/Vite-fast-yellow)
+![Status](https://img.shields.io/badge/Project-Academic-blue)
+![License](https://img.shields.io/badge/License-Educational-green)
+
+**Academic Year: 2025/2026**  
+Frontend developed for the sports league management API (football), integrated with a Django REST API.
+
+---
+
+## 1. 📌 Overview
+
+Frontend application built with **Vue.js 3** and **Vite**, consuming a **public REST API** developed with **Django REST Framework**.
+
+Allows:
+- Viewing leagues, teams, players and matches
+- Managing data through an administrative interface
+- Clear and intuitive navigation
+
+**Main objectives:**
+- Simplicity
+- Visual clarity
+- Separation of responsibilities
+- Proper integration with the backend
+
+---
+
+## 2. 🛠️ Technologies Used
+
+- **Vue.js 3**
+- **Vite**
+- **Vue Router**
+- **Axios**
+- **Pure CSS**
+
+---
+
+## 3. 🗂️ Project Structure
+
+```
+frontend/
+└── src/
+    ├── assets/
+    │   └── style.css
+    ├── components/
+    │   ├── Navbar.vue
+    │   ├── StatCard.vue
+    │   └── LeagueCard.vue
+    ├── router/
+    │   └── router.js
+    ├── services/
+    │   └── api.js
+    └── views/
+        ├── Home.vue
+        ├── Manage.vue
+        ├── LeagueDetail.vue
+        ├── TeamDetail.vue
+        └── PlayerDetail.vue
+```
+
+---
+
+## 4. 🧩 Code Organization
+
+### `assets/`
+Global application styles.
+
+### `services/api.js`
+Centralizes API communication:
+- Base URL
+- HTTP calls
+- Maintenance and scalability
+
+### `router/router.js`
+Manages routes:
+- `/`
+- `/manage`
+- `/leagues/:id`
+- `/teams/:id`
+- `/players/:id`
+
+---
+
+## 5. 🧱 Reusable Components
+
+### Navbar
+- Global navigation
+
+### StatCard
+- Statistics:
+  - Leagues
+  - Teams
+  - Players
+  - Matches
+
+### LeagueCard
+- Displays league information and its matches
+
+---
+
+## 6. 🖥️ Views (Pages)
+
+### Home.vue
+- Global statistics
+- Leagues, matches and teams
+- Navigation to details
+
+### Manage.vue
+- Full CRUD:
+  - Leagues
+  - Teams
+  - Players
+  - Matches
+
+### LeagueDetail.vue
+- Detailed league data
+
+### TeamDetail.vue
+- Team data
+- Player table
+
+### PlayerDetail.vue
+- Complete player data
+
+---
+
+## 7. 🔗 Backend Integration
+
+| Feature      | Endpoint           |
+|--------------|--------------------|
+| Leagues      | `/api/leagues/`    |
+| Teams        | `/api/teams/`      |
+| Players      | `/api/players/`    |
+| Matches      | `/api/matches/`    |
+
+Data returned by serializers is used directly to optimize performance.
+
+---
+
+## 🚀 Installation and Execution
+
+1. Clone the repository: [https://github.com/Afons19/LigasAPI-Frontend.git](https://github.com/Afons19/LigasAPI-Frontend.git)
+
+```bash
+# Install dependencies
+npm install
+npm install axios
+npm install vue-router
+
+# Run development server
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🎓 Academic Project
+
+This project was developed for academic purposes within the web development course unit, following best practices for organization, modularity and frontend-backend integration.
+
+---
+
+## 🤝 Contribution
+
+Feel free to contribute with improvements by opening an issue or submitting a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
