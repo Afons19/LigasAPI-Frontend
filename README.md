@@ -1,4 +1,6 @@
-# LigasApi-Frontend
+# Documentação do Frontend
+---
+# LigasAPI-Frontend
 # ⚽ Sistema de Gestão de Ligas Desportivas — Frontend
 
 ![Vue](https://img.shields.io/badge/Vue.js-3.x-42b883)
