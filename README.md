@@ -142,7 +142,7 @@ Os dados retornados pelos serializers são utilizados diretamente para otimizar 
 
 ---
 
-## 🚀 Instalação e Execução
+## 8. ⚙ Instalação e Execução
 
 1. Clone o repositório: git clone [https://github.com/Afons19/LigasAPI-Frontend.git](https://github.com/Afons19/LigasAPI-Frontend.git)
 
@@ -181,7 +181,7 @@ Sinta-se à vontade para contribuir com melhorias abrindo um problema ou enviand
 Este projeto é licenciado sob a Licença MIT.
 ---
 
-# LigaApi-Backend
+# LigasAPI-Frontend
 # ⚽ Sports League Management System — Frontend
 
 ![Vue](https://img.shields.io/badge/Vue.js-3.x-42b883)
@@ -238,10 +238,10 @@ frontend/
     │   └── api.js
     └── views/
         ├── Home.vue
-        ├── Manage.vue
-        ├── LeagueDetail.vue
-        ├── TeamDetail.vue
-        └── PlayerDetail.vue
+        ├── Gerenciar.vue
+        ├── LigaDetelhe.vue
+        ├── EquipaDetalhe.vue
+        └── JogadorDetalhe.vue
 ```
 
 ---
@@ -261,9 +261,9 @@ Centralizes API communication:
 Manages routes:
 - `/`
 - `/manage`
-- `/leagues/:id`
-- `/teams/:id`
-- `/players/:id`
+- `/ligas/:id`
+- `/equipas/:id`
+- `/jogadores/:id`
 
 ---
 
@@ -279,7 +279,7 @@ Manages routes:
   - Players
   - Matches
 
-### LeagueCard
+### LigaCard
 - Displays league information and its matches
 
 ---
@@ -291,21 +291,21 @@ Manages routes:
 - Leagues, matches and teams
 - Navigation to details
 
-### Manage.vue
+### Gerenciar.vue
 - Full CRUD:
   - Leagues
   - Teams
   - Players
   - Matches
 
-### LeagueDetail.vue
+### LigaDetalhe.vue
 - Detailed league data
 
-### TeamDetail.vue
+### EquipaDetalhe.vue
 - Team data
 - Player table
 
-### PlayerDetail.vue
+### JogadorDetalhe.vue
 - Complete player data
 
 ---
@@ -314,10 +314,10 @@ Manages routes:
 
 | Feature      | Endpoint           |
 |--------------|--------------------|
-| Leagues      | `/api/leagues/`    |
-| Teams        | `/api/teams/`      |
-| Players      | `/api/players/`    |
-| Matches      | `/api/matches/`    |
+| Ligas        | `/api/ligas/`      |
+| Equipas      | `/api/equipas/`    |
+| Jogadores    | `/api/jogadores/`  |
+| Jogos        | `/api/jogos/`      |
 
 Data returned by serializers is used directly to optimize performance.
 
