@@ -26,9 +26,12 @@ export default {
       return this.jogos.map(jogo => ({
         ...jogo,
         equipa_casa_nome: this.equipas.find(e => e.id === jogo.equipa_casa)?.nome || jogo.equipa_casa_nome,
+        
         equipa_visitante_nome: this.equipas.find(e => e.id === jogo.equipa_visitante)?.nome || jogo.equipa_visitante_nome,
+
         liga_nome: this.ligas.find(l => l.id === jogo.liga)?.nome || 'N/A',
         resultado_casa: jogo.golos_casa,
+
         resultado_visitante: jogo.golos_fora
       }));
     },
