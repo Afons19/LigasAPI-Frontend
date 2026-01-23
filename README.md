@@ -1,7 +1,7 @@
 # Documentação do Frontend
 ---
 # LigasAPI-Frontend
-# ⚽ Sistema de Gestão de Ligas Desportivas — Frontend
+# ⚽ Sistema de Gestão de Ligas Desportivas(Futebol) — Frontend
 
 ![Vue](https://img.shields.io/badge/Vue.js-3.x-42b883)
 ![Vite](https://img.shields.io/badge/Vite-fast-yellow)
@@ -166,7 +166,7 @@ http://localhost:5173
 
 ## 🎓 Projeto Académico
 
-Este projeto foi desenvolvido para fins académicos no âmbito da unidade curricular de desenvolvimento web, cumprindo boas práticas de organização, modularidade e integração frontend-backend.
+Este projeto foi desenvolvido para fins académicos.
 
 ---
 
@@ -179,6 +179,7 @@ Sinta-se à vontade para contribuir com melhorias abrindo um problema ou enviand
 ## 📄 Licença
 
 Este projeto é licenciado sob a Licença MIT.
+<<<<<<< HEAD
 ---
 
 # LigasAPI-Frontend
@@ -354,6 +355,8 @@ This project was developed for academic purposes within the web development cour
 ## 🤝 Contribution
 
 Feel free to contribute with improvements by opening an issue or submitting a pull request.
+=======
+>>>>>>> 8a1289d1f82cc6f679fe687cd4007d8eb00a4dcc
 
 ---
 
